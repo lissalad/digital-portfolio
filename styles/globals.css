@@ -16,7 +16,7 @@
 }
 
 main {
-  @apply md:mt-8 mt-6;
+  @apply md:py-8 py-6;
 }
 
 .button {

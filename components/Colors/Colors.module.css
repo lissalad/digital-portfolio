@@ -1,0 +1,34 @@
+.container {
+  @apply fixed h-full w-full;
+
+  
+}
+
+/* The element to apply the animation to */
+.cure {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-color: rgb(253, 244, 244);
+  border-radius: 2px;
+  margin: 0px -3px 0 -3px;
+  top: 200px;
+
+  transition: all 1s ease-out;
+
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+    margin: 0 -3px 0 -3px;
+  }
+  to {
+    transform: translateX(100%);
+    margin: 0 6px 0 6px;
+  }
+}
