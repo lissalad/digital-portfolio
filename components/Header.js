@@ -13,7 +13,7 @@ export default function Header() {
         <h1>lissa</h1>
         <div className="flex flex-row space-x-8 font-normal">
           {/* <Link href="/">contact</Link> */}
-          {/* <Link href="/">about</Link> */}
+          {/* <Link href="/index">about</Link> */}
           <p>contact</p>
           <p>about</p>
         </div>

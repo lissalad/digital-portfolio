@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "title": "Color Slice",
+    "madeWith": "Adobe Illustrator",
+    "when": 2022,
+    "filename": "instagram-logo.png",
+    "description": "I designed this to use as my profile picture for my instagram dedicated to my art and Etsy, @lissalemon"
+  },
+
+  {
+    "id": 2,
+    "title": "Piedmont Bird Calling Contest Poster 2017",
+    "madeWith": "Microsoft Paint",
+    "when": 2017,
+    "filename": "bird.jpg",
+    "description": "My highschool's annual bird calling contest advertised with a unique poster each year. I entered and won with this design as a freshmen. This was some of my first experimentation with digital art."
+  },
+  {
+    "id": 3,
+    "title": "Silly Little Bug",
+    "madeWith": "Adobe Photoshop",
+    "when": 2021,
+    "filename": "sillylilbug.png",
+    "description": "In order to promote The UC Theater's livestream that I would be featured in, I was asked to send a photo of myself to be posted on their Instagram. Using a few different photos of mine, I made a goofy edit playing on the title of my song, 'Silly Little Bug'."
+  }
+]

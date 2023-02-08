@@ -1,15 +1,15 @@
 import classNames from "classnames";
 import Image from "next/image";
 
-export default function Tile() {
+export default function Tile({ work }) {
   return (
-    <div className={classNames("h-fit w-fit")}>
+    <div className={classNames("h-fit w-fit ")}>
       <Image
-        src="/images/instagram-logo.png"
-        alt="lemon slice art"
+        src={"/images/" + work.filename}
+        alt={work.title}
         width="450"
         height="450"
-        className="rounded-xl shadow-md hover:brightness-75 hover:shadow-xl transition-all transition-duration-500"
+        className="rounded-xl shadow-md transition-all transition-duration-500 hover:brightness-75 hover:shadow-xl"
       />
     </div>
   );
