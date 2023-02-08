@@ -33,7 +33,7 @@ export default function Tile({ work }) {
       >
         <div
           className={classNames(
-            "bg-teal-900 text-teal-50 fixed md:m-0 rounded-xl shadow-2xl max-h-[90vh] h-fit",
+            "bg-teal-900 text-teal-50 fixed md:m-0 rounded-xl shadow-2xl max-h-[95vh] h-fit",
             " md:m-2 md:max-w-[90vw]"
           )}
         >
@@ -53,7 +53,7 @@ export default function Tile({ work }) {
                 className={classNames("space-y-12 text-md md:w-[400px]")}
               >
                 <p>{work.description}</p>
-                <p className="text-stone-200 text-center md:text-left text-sm mb-12">
+                <p className="text-stone-200 text-center md:text-left text-sm">
                   made in {work.when} with {work.madeWith}
                 </p>
               </Dialog.Description>

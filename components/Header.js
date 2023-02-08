@@ -2,7 +2,7 @@ import classNames from "classnames";
 import Link from "next/link";
 
 export default function Header() {
-  const navItem = "hover:text-teal-200 transition-all";
+  const navItem = "hover:text-teal-200 transition-all focus:text-teal-50";
 
   return (
     <div
