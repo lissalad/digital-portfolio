@@ -33,7 +33,8 @@ export default function Tile({ work }) {
       >
         <div
           className={classNames(
-            "bg-teal-900 text-teal-50 fixed m-2 md:m-0 rounded-xl shadow-2xl md:max-w-[90vw]"
+            "bg-teal-900 text-teal-50 fixed md:m-0 rounded-xl shadow-2xl max-h-[90vh] h-fit",
+            " md:m-2 md:max-w-[90vw]"
           )}
         >
           <Dialog.Panel
