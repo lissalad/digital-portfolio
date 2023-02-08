@@ -6,10 +6,17 @@ export default function Header() {
     <Link href="/">
       <div
         className={classNames(
-          "w-full bg-teal-50 p-5 text-teal-700 text-2xl font-semibold border-b-4 border-teal-700/20"
+          "w-full py-4 border-b-4 border-teal-200 text-teal-900 text-xl  font-semibold flex flex-row justify-between",
+          "md:text-2xl md:tracking-widest"
         )}
       >
-        lissa
+        <h1>lissa</h1>
+        <div className="flex flex-row space-x-8 font-normal">
+          {/* <Link href="/">contact</Link> */}
+          {/* <Link href="/">about</Link> */}
+          <p>contact</p>
+          <p>about</p>
+        </div>
       </div>
     </Link>
   );
