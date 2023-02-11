@@ -26,5 +26,33 @@
     "filename": "sillylilbug.jpeg",
     "description": "In order to promote The UC Theater's livestream that I would be featured in, I was asked to send a photo of myself to be posted on their Instagram. Using a few different photos of mine, I made a goofy edit playing on the title of my song, 'Silly Little Bug'.",
     "link": "https://www.instagram.com/p/CK4xyj-hZ0X/?igshid=YmMyMTA2M2Y="
+  },
+
+  {
+    "id": 4,
+    "title": "PHS Dance Shirt Design",
+    "madeWith": "Krita",
+    "when": 2018,
+    "filename": "dancers.jpg",
+    "description": "My high school dance class chose this design for our t-shirt. I posed a few doodly characters using class exercises and choreography from our upcoming show.",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "title": "MotherBoat",
+    "madeWith": "Adobe Illustrator",
+    "when": 2021,
+    "filename": "motherboat.png",
+    "description": "For my first independent coding project, I made a site that would generate a name for a boat. As a play on words, I named it 'MotherBoat'. I designed this graphic to be a logo.",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "title": "Ukulele Club Sticker",
+    "madeWith": "Krita",
+    "when": 2018,
+    "filename": "ukeclubsticker.png",
+    "description": "In high school I was president of the ukulele club. I gave out a few stickers with this doodle style design I made for the club. They were on a couple waterbottles.",
+    "link": ""
   }
 ]

@@ -69,7 +69,7 @@ export default function Tile({ work }) {
                 height="400"
                 className={classNames(
                   "rounded-xl rounded-b-sm shadow-md max-h-[50vh] w-auto",
-                  " md:max-w-[60vw] md:rounded-b-xl md:rounded-l-sm md:max-h-[90vh] md:min-w-[40vw]"
+                  "md:max-w-[60vw] md:rounded-b-xl md:rounded-l-sm md:max-h-[90vh] md:min-w-[40vw]"
                 )}
               />
             </div>
