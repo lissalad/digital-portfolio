@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import Work from "./Work";
 import CloseButton from "./CloseButton";
+import { PlayIcon } from "./Icons";
 
 export default function Tile({ work }) {
   let [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,11 @@ export default function Tile({ work }) {
     <div>
       {/* ----------------------------------------------------------------------------------- */}
 
-      <div className={classNames("tile max-w-[300px] m-2")}>
+      <div
+        className={classNames(
+          "tile max-w-[300px] m-2 relative flex items-center justify-center"
+        )}
+      >
         <Image
           src={"/images/" + work.filename}
           alt={work.title}
@@ -21,6 +26,13 @@ export default function Tile({ work }) {
           className="tile-image rounded-xl shadow-md transition-all transition-duration-500 hover:brightness-75 hover:shadow-xl"
           onClick={() => setIsOpen(true)}
         />
+        {work.type === "video" ? (
+          <div className="absolute">
+            <PlayIcon />
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
 
       {/* ----------------------------------------------------------------------------------- */}
@@ -64,18 +76,28 @@ export default function Tile({ work }) {
             {/* ------------- image ----------------------------- */}
 
             <div>
-              <Image
-                src={"/images/" + work.filename}
-                alt={work.title}
-                width="400"
-                height="400"
-                className={classNames(
-                  "rounded-xl rounded-b-sm shadow-md max-h-[50vh] w-auto",
-                  "md:min-w-[30vw] md:max-h-[90vh] md:min-h-[400px] md:w-auto md:rounded-b-xl md:rounded-l-sm"
-                )}
-              />
+              {work.videoLink ? (
+                <iframe
+                  src={work.videoLink}
+                  frameborder="0"
+                  className={classNames(
+                    "max-h-[50vh] w-auto",
+                    "md:min-w-[30vw] md:max-h-[90vh] md:min-h-[400px] md:w-auto md:rounded-b-xl md:rounded-l-sm"
+                  )}
+                ></iframe>
+              ) : (
+                <Image
+                  src={"/images/" + work.filename}
+                  alt={work.title}
+                  width="400"
+                  height="400"
+                  className={classNames(
+                    "rounded-xl rounded-sm shadow-md max-h-[50vh] w-auto",
+                    "md:min-w-[30vw] md:max-h-[90vh] md:min-h-[400px] md:w-auto md:rounded-b-xl md:rounded-l-sm"
+                  )}
+                />
+              )}
             </div>
-
             <button
               className={classNames(
                 "absolute top-2 left-2 md:top-5 md:left-5 hover:bg-stone-300/60 rounded-xl p-1 transition-all"

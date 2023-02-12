@@ -5,9 +5,13 @@ import data from "/works.json";
 export default function Gallery() {
   return (
     <div className={classNames("gallery", "")}>
-      {data.map((work, i) => (
-        <Tile key={i} work={work} />
-      ))}
+      {data
+        .sort((a, b) => {
+          return b.when - a.when;
+        })
+        .map((work, i) => (
+          <Tile key={i} work={work} />
+        ))}
     </div>
   );
 }
