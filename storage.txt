@@ -1,0 +1,11 @@
+,
+  {
+    "id": 9,
+    "title": "How To: Stop Motion",
+    "madeWith": "Final Cut Pro",
+    "when": 2018,
+    "filename": "",
+    "description": "My video was a finalist for Next Vista's Creative Storm 2018 video contest. I chose to teach something that I am familiar with and very fond of, stop motion.",
+    "link": "www.nextvista.org/embed/player.phtml?id=10251",
+    "type": "video"
+  }

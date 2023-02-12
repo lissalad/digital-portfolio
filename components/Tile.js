@@ -33,8 +33,8 @@ export default function Tile({ work }) {
       >
         <div
           className={classNames(
-            "bg-teal-900 text-teal-50 fixed md:m-0 rounded-xl shadow-2xl max-h-[95vh] h-fit",
-            " md:m-2 md:max-w-[90vw]"
+            "bg-teal-900 text-teal-50 fixed md:m-0 rounded-xl shadow-2xl ",
+            " md:m-2 md:max-w-[90vw] md:max-h-[95vh] md:h-fit"
           )}
         >
           <Dialog.Panel
@@ -43,17 +43,19 @@ export default function Tile({ work }) {
             )}
           >
             {/* ------------- info ----------------------------- */}
-            <div className="py-10 px-5 md:px-10 text-left flex flex-col">
-              <Dialog.Title className="text-4xl mb-6 md:text-6xl md:text-left">
+            <div className="py-8 md:py-10 px-5 md:px-10 text-left flex flex-col">
+              <Dialog.Title className="text-xl mb-6 md:text-6xl md:text-left">
                 {/* <a className="" href={work.link}> */}
                 {work.title}
                 {/* </a> */}
               </Dialog.Title>
               <Dialog.Description
-                className={classNames("space-y-12 text-md md:w-[400px]")}
+                className={classNames(
+                  "space-y-12 text-sm md:text-md md:w-[400px]"
+                )}
               >
                 <p>{work.description}</p>
-                <p className="text-stone-200 text-center md:text-left text-sm">
+                <p className="text-stone-200 text-center text-xs md:text-left md:text-sm">
                   made in {work.when} with {work.madeWith}
                 </p>
               </Dialog.Description>
@@ -68,7 +70,7 @@ export default function Tile({ work }) {
                 width="400"
                 height="400"
                 className={classNames(
-                  "rounded-xl rounded-b-sm shadow-md max-h-[50vh]",
+                  "rounded-xl rounded-b-sm shadow-md max-h-[50vh] w-auto",
                   "md:min-w-[30vw] md:max-h-[90vh] md:min-h-[400px] md:w-auto md:rounded-b-xl md:rounded-l-sm"
                 )}
               />
@@ -76,7 +78,7 @@ export default function Tile({ work }) {
 
             <button
               className={classNames(
-                "absolute top-5 left-5 hover:bg-stone-300/60 rounded-xl p-1 transition-all"
+                "absolute top-2 left-2 md:top-5 md:left-5 hover:bg-stone-300/60 rounded-xl p-1 transition-all"
               )}
               onClick={() => setIsOpen(false)}
             >
