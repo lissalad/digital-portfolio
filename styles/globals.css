@@ -21,11 +21,41 @@
 
 main {
   @apply md:py-8 py-6;
+  @apply w-full flex flex-col items-center;
 }
 
 .button {
   @apply bg-rose-50 px-6 py-2 text-rose-800 rounded w-full font-semibold text-left border-4 border-rose-400 tracking-[1px];
 
+}
+
+.tile {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* overflow: hidden; */
+}
+
+.tile-image {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* object-fit: cover; */
+}
+
+.gallery {
+  /* display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 20px; */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @apply md:justify-between;
+  justify-content: center;
 }
 
 

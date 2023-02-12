@@ -19,17 +19,16 @@ const About = () => {
         />
         <div
           className={classNames(
-            "md:mx-12 md:mt-16 bg-stone-50/40 rounded-3xl py-4 px-4 pb-6"
+            "md:mx-12 md:mt-16 py-6 px-4 md:p-12 border-8 border-teal-300 rounded-xl bg-teal-200/80 w-fit"
           )}
         >
-          <h1 className="text-4xl mb-6 text-center">My name is lissa.</h1>
-          <p className="text-md indent-5 max-w-[600px] md:text-lg">
+          <h1 className="text-3xl mb-6 text-center">My name is lissa.</h1>
+          <p className="text-sm md:text-md indent-5 max-w-[600px] md:text-lg">
             I am an artist currently studying computer science at Dominican
             University of California. From photography to drawing to music to
             web design, I am all about creativity. I am always exploring new
             ways to express myself.
           </p>
-          <p></p>
         </div>
       </div>
 

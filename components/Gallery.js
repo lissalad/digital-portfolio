@@ -4,7 +4,7 @@ import data from "/works.json";
 
 export default function Gallery() {
   return (
-    <div className={classNames("grid grid-cols-1 gap-4", "md:grid-cols-3")}>
+    <div className={classNames("gallery", "")}>
       {data.map((work, i) => (
         <Tile key={i} work={work} />
       ))}

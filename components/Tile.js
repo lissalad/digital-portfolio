@@ -12,13 +12,13 @@ export default function Tile({ work }) {
     <div>
       {/* ----------------------------------------------------------------------------------- */}
 
-      <div className={classNames("h-fit w-fit")}>
+      <div className={classNames("tile max-w-[300px] m-2")}>
         <Image
           src={"/images/" + work.filename}
           alt={work.title}
           width="450"
           height="450"
-          className="rounded-xl shadow-md transition-all transition-duration-500 hover:brightness-75 hover:shadow-xl"
+          className="tile-image rounded-xl shadow-md transition-all transition-duration-500 hover:brightness-75 hover:shadow-xl"
           onClick={() => setIsOpen(true)}
         />
       </div>
@@ -44,10 +44,10 @@ export default function Tile({ work }) {
           >
             {/* ------------- info ----------------------------- */}
             <div className="py-10 px-5 md:px-10 text-left flex flex-col">
-              <Dialog.Title className="text-4xl mb-6 md:text-6xl md:text-left hover:text-teal-200 transition-all">
-                <a className="" href={work.link}>
-                  {work.title}
-                </a>
+              <Dialog.Title className="text-4xl mb-6 md:text-6xl md:text-left">
+                {/* <a className="" href={work.link}> */}
+                {work.title}
+                {/* </a> */}
               </Dialog.Title>
               <Dialog.Description
                 className={classNames("space-y-12 text-md md:w-[400px]")}

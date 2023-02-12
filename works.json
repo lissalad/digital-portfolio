@@ -10,7 +10,7 @@
   },
 
   {
-    "id": 2,
+    "id": 1,
     "title": "Piedmont Bird Calling Contest Poster 2017",
     "madeWith": "Microsoft Paint",
     "when": 2017,
@@ -19,7 +19,7 @@
     "link": "https://www.brownpapertickets.com/event/2914610"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Silly Little Bug",
     "madeWith": "Adobe Photoshop",
     "when": 2021,
@@ -27,14 +27,31 @@
     "description": "In order to promote The UC Theater's livestream that I would be featured in, I was asked to send a photo of myself to be posted on their Instagram. Using a few different photos of mine, I made a goofy edit playing on the title of my song, 'Silly Little Bug'.",
     "link": "https://www.instagram.com/p/CK4xyj-hZ0X/?igshid=YmMyMTA2M2Y="
   },
-
+  {
+    "id": 3,
+    "title": "Ghost Hand",
+    "madeWith": "Procreate",
+    "when": 2023,
+    "filename": "pastel-hand.png",
+    "description": "As an experiment with brushes, layer blending, and shading, I illustrated this sort of ghostly image of a reaching hand. For reference, I used a free stock photo from Unsplash.",
+    "link": ""
+  },
   {
     "id": 4,
-    "title": "PHS Dance Shirt Design",
-    "madeWith": "Krita",
-    "when": 2018,
-    "filename": "dancers.jpg",
-    "description": "My high school dance class chose this design for our t-shirt. I posed a few doodly characters using class exercises and choreography from our upcoming show.",
+    "title": "Uncertain Pigtails",
+    "madeWith": "Procreate",
+    "when": 2023,
+    "filename": "uncertain-pigtails.png",
+    "description": "It is always a lot of fun to play with facial expressions. I really love designing goofy abstract characters like these, and hope to build on that in the future.",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "title": "Sea Glass Bouquet",
+    "madeWith": "Procreate",
+    "when": 2023,
+    "filename": "bottle-flowers.png",
+    "description": "I collect pretty bottles. As an item that I love, they make the perfect subject for practice challenging my fear of shading.",
     "link": ""
   },
   {
@@ -47,12 +64,21 @@
     "link": ""
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Ukulele Club Sticker",
     "madeWith": "Krita",
     "when": 2018,
     "filename": "ukeclubsticker.png",
     "description": "In high school I was president of the ukulele club. I gave out a few stickers with this doodle style design I made for the club. They were on a couple waterbottles.",
+    "link": ""
+  },
+  {
+    "id": 8,
+    "title": "PHS Dance Shirt Design",
+    "madeWith": "Krita",
+    "when": 2018,
+    "filename": "dancers.jpg",
+    "description": "My high school dance class chose this design for our t-shirt. I posed a few doodly characters using class exercises and choreography from our upcoming show.",
     "link": ""
   }
 ]
