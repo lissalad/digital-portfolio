@@ -14,7 +14,7 @@ const Contact = () => {
     <main classnames="">
       <div
         className={classNames(
-          "flex flex-col text-center items-center justify-center p-12 border-8 border-teal-300 rounded-xl bg-teal-200/80 w-fit"
+          "flex flex-col text-center items-center justify-center p-12 border-8 border-teal-300 rounded-xl bg-teal-200/80 w-fit absolute top-[25%]"
         )}
       >
         <div className="flex flex-col mb-8">

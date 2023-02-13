@@ -9,7 +9,7 @@ import Colors from "../components/Colors/Colors";
 const About = () => {
   return (
     <main classnames="">
-      <div className={classNames("flex flex-col items-center md:flex-row")}>
+      <div className={classNames("flex flex-col items-center ")}>
         <Image
           src="/images/selfportrait.png"
           alt="self portrait"
@@ -19,7 +19,7 @@ const About = () => {
         />
         <div
           className={classNames(
-            "md:mx-12 md:mt-16 py-6 px-4 md:p-12 border-8 border-teal-300 rounded-xl bg-teal-200/80 w-fit"
+            "md:mx-12 py-6 px-4 md:p-12 border-8 border-teal-300 rounded-xl bg-teal-200/80 w-fit"
           )}
         >
           <h1 className="text-3xl mb-6 text-center">My name is lissa.</h1>

@@ -13,11 +13,7 @@ export default function Tile({ work }) {
     <div>
       {/* ----------------------------------------------------------------------------------- */}
 
-      <div
-        className={classNames(
-          "tile max-w-[300px] m-2 relative flex items-center justify-center"
-        )}
-      >
+      <div className={classNames("tile")}>
         <Image
           src={"/images/" + work.filename}
           alt={work.title}

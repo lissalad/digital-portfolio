@@ -6,7 +6,6 @@
   height: 100%;
   line-height: 1.3;
   font-family: "dmserif", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
   letter-spacing: .05rem;
 
   /* background: rgb(13, 21, 20); */
@@ -16,7 +15,8 @@
 }
 
 #main-wrapper {
-  @apply md:px-48 px-4;
+  @apply md:px-16 px-6;
+  @apply md:max-w-[1400px];
 }
 
 main {
@@ -30,32 +30,22 @@ main {
 }
 
 .tile {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* overflow: hidden; */
+  margin: 0;
+  display: flex;
+
+  margin-bottom: 10px;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .tile-image {
-  /* width: 100%; */
-  /* height: 100%; */
-  /* object-fit: cover; */
+
 }
 
 .gallery {
-  /* display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  grid-gap: 20px; */
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-
-  @apply md:justify-between;
-  justify-content: center;
+  @apply columns-1 md:columns-2 lg:columns-4 w-full;
+  /* column-gap: 10px; */
 }
 
 
