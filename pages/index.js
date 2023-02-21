@@ -11,7 +11,6 @@ const Home = () => {
   return (
     <main classnames="">
       <Gallery />
-      {/* <Colors /> */}
     </main>
   );
 };

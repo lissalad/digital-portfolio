@@ -15,13 +15,14 @@
 }
 
 #main-wrapper {
-  @apply md:px-16 px-6;
+  @apply md:px-16 px-6 mx-auto;
   @apply md:max-w-[1400px];
 }
 
 main {
   @apply md:py-8 py-6;
   @apply w-full flex flex-col items-center;
+
 }
 
 .button {
@@ -47,6 +48,9 @@ main {
   @apply columns-1 md:columns-2 lg:columns-4 w-full;
   /* column-gap: 10px; */
 }
+
+
+
 
 
 /* ---------- FONTS ---------- */

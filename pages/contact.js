@@ -34,6 +34,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      {/* <Colors /> */}
     </main>
   );
 };
